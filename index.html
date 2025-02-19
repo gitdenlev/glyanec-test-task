@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>GL.ua - розробка та підтримка сайтів</title>
+  </head>
+  <body>
+    <div class="page__container flex flex-col">
+      <!-- Header -->
+      <header class="flex items-center justify-between px-[168px]">
+        <div>
+          <img src="/images/logo.svg" alt="logo" />
+        </div>
+
+        <nav>
+          <ul class="header__menu flex gap-[24px] text-[20px] font-semibold">
+            <li>Чому ми?</li>
+            <li>Партнери</li>
+            <li>Благодійність</li>
+            <li>Про нас</li>
+            <li>Drupal</li>
+          </ul>
+        </nav>
+
+        <div class="flex items-center gap-[40px]">
+          <ul class="flex gap-[12px]">
+            <li><img src="/images/facebook.svg" alt="facebook logo" /></li>
+            <li><img src="/images/instagram.svg" alt="instagram logo" /></li>
+            <li><img src="/images/viber.svg" alt="viber logo" /></li>
+          </ul>
+
+          <div>
+            <h2>Пн-Пт з 10 до 18</h2>
+            <p class="flex items-center gap-[8px] font-bold">
+              0 (800) 759-759
+              <span
+                ><img src="images/chevron_down.svg" alt="arrow down"
+              /></span>
+            </p>
+          </div>
+        </div>
+      </header>
+
+      <!-- Hero -->
+      <div class="hero__container mt-10 flex items-center justify-between">
+        <!-- Text Info -->
+        <div class="mt-[122px]">
+          <p class="text-[20px] font-bold">Вебстудія №1 з розробки сайтів</p>
+          <h1 class="text-[90px] font-bold text-wrap">
+            Приєднуйтесь <br />
+            до нашої ІТ-команди
+          </h1>
+
+          <h2 class="text-[20px] font-bold">
+            Відкрийте нові перспективи кар'єрного зростання, приєднавшись до
+            нашої інноваційної IT-команди, яка відкриває двері до безмежних
+            можливостей
+          </h2>
+          <button class="button">Спробуй свої сили</button>
+        </div>
+        <!-- Image Container -->
+        <div>
+          <img src="/images/hero-img.png" alt="Hero Image" />
+        </div>
+      </div>
+
+      <!-- Test Section -->
+      <div class="mt-[128px]">
+        <div class="flex items-center justify-between">
+          <h1 class="text-[90px] font-bold text-[#333]">
+            Етапи перевірки тестового завдання!
+          </h1>
+          <p class="text-[24px] text-[#333] text-right">
+            Ми цінуємо ваш час, тому оперативно перевіряємо тестові роботи
+            вручну, гарантуючи якісну оцінку.
+          </p>
+        </div>
+
+        <div class="mt-[84px] flex flex-col items-center justify-between">
+          <div class="flex text-left">
+            <div class="test__container-banner">
+              <div class="mx-auto flex items-center gap-[10px]">
+                <img src="/images/soft-star.svg" alt="Soft Star" />
+                <img src="/images/soft-star.svg" alt="Soft Star" />
+                <img src="/images/soft-star.svg" alt="Soft Star" />
+              </div>
+              <h2 class="text-[24px]">
+                Хоча тестові завдання
+                <span class="font-bold">приймає бот</span>, їх
+                <span class="font-bold">перевіряють реальні люди</span> – твої
+                майбутні <span class="font-bold">колеги з відділу</span>, до
+                якого ти подаєш резюме. Якщо робота підходить, саме команда
+                обирає тебе та
+                <span class="font-bold">допомагатиме під час стажування.</span>
+              </h2>
+            </div>
+
+            <div class="mx-auto">
+              <img src="/images/stars.png" alt="Stars" />
+            </div>
+          </div>
+
+          <div class="flex items-center justify-between">
+            <h2 class="text-[24px] font-bold">
+              Не дивуйтеся, якщо отримаєте відповідь уже за 5 хвилин після
+              подачі або пізно вночі. Ми не працюємо за застарілими стандартами
+              й перевіряємо тестові завдання у вільний час, навіть з особистих
+              телефонів – усе для того, щоб ви швидше дізналися результат.
+            </h2>
+            <img src="/images/happy.png" alt="Happy" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Our Team -->
+      <div class="team__container">
+        <!-- Text -->
+        <div class="w-1/2 mr-[60px]">
+          <h1
+            class="team__main__text text-[64px] flex items-center gap-[24px] font-bold"
+          >
+            Найкраща компанія для роботи в IT
+          </h1>
+          <h2 class="text-[26px] font-bold mt-[48px]">
+            Вебстудія Глянець — команда, яка налічує понад 50 професіоналів
+          </h2>
+          <h2 class="text-[20px] mt-[15px]">
+            Наша компанія має власний офіс, хостинг, проводить навчання кадрів,
+            здійснює контроль якості кожного проєкту.
+          </h2>
+          <h2 class="text-[20px] mt-[15px]">
+            За час своєї роботи ми розробили сотні інтернет-магазинів, які
+            працюють у всіх країнах світу, продаючи своїм замовникам тисячі
+            товарів на добу.
+          </h2>
+
+          <h2 class="text-[20px] mt-[15px]">
+            Глянець — це надійність. Перевірено досвідом!
+          </h2>
+
+          <ul class="flex items-center gap-[50px] mt-[28px]">
+            <li>
+              <img
+                src="images/ua-gromad.png"
+                alt="Україна громад"
+                width="100px"
+              />
+            </li>
+            <li>
+              <img
+                src="images/alternative-commerce.png"
+                alt="Alternative commerce"
+              />
+            </li>
+            <li><img src="images/help-desk-star.png" alt="Helpdesk star" /></li>
+          </ul>
+        </div>
+
+        <!-- Photo -->
+        <div class="mt-[120px]">
+          <img src="/images/team.png" alt="Team" />
+        </div>
+      </div>
+
+      <!-- Why Us? -->
+      <div class="mt-[128px]">
+        <h1 class="text-[#333] text-[90px] font-bold">Чому ми?</h1>
+        <div class="mt-[48px] flex items-center justify-between gap-[42px]">
+          <div class="why-us__container w-1/2">
+            <!-- 1 -->
+            <div>
+              <div class="flex items-center gap-[30px]">
+                <img src="/images/up.svg" alt="" />
+                <h2 class="text-[28px] font-bold">
+                  Постійне зростання надходжень
+                </h2>
+              </div>
+              <p class="ml-[70px] mt-[10px]">
+                У нашій компанії ми працюємо над тим, щоб надходження постійно
+                зростали. Наша мета — допомогти вам досягти фінансового успіху.
+              </p>
+            </div>
+            <!-- 2 -->
+            <div>
+              <div class="flex items-center gap-[30px]">
+                <img src="/images/graphic.svg" alt="" />
+                <h2 class="text-[28px] font-bold">Вільний графік</h2>
+              </div>
+              <p class="ml-[70px] mt-[10px]">
+                Ми розуміємо, що кожна людина має унікальні потреби та
+                обставини, тому пропонуємо гнучкий режим роботи, який враховує
+                індивідуальні вимоги та дозволяє пристосуватися до них.
+              </p>
+            </div>
+            <!-- 3 -->
+            <div>
+              <div class="flex items-center gap-[30px]">
+                <img src="/images/office.svg" alt="" />
+                <h2 class="text-[28px] font-bold">Комфортний офіс</h2>
+              </div>
+              <p class="ml-[70px] mt-[10px]">
+                Кожен співробітник матиме своє робоче місце і зручні зони
+                відпочинку, що сприяють розслабленню та відновленню енергії.
+                Використовуємо Starlink, тому завжди на звʼязку.
+              </p>
+            </div>
+
+            <!-- 4 -->
+            <div>
+              <div class="flex items-center gap-[30px]">
+                <img src="/images/remote.svg" alt="" />
+                <h2 class="text-[28px] font-bold">
+                  Можливість працювати з дому в майбутньому
+                </h2>
+              </div>
+              <p class="ml-[70px] mt-[10px]">
+                Ми цінуємо баланс між роботою та особистим життям, тому
+                передбачаємо гнучкий формат роботи для комфорту та ефективності.
+              </p>
+            </div>
+
+            <!-- 5 -->
+            <div>
+              <div class="flex items-center gap-[30px]">
+                <img src="/images/improve.svg" alt="" />
+                <h2 class="text-[28px] font-bold">Швидкий розвиток</h2>
+              </div>
+              <p class="ml-[70px] mt-[10px]">
+                За короткий проміжок часу ти стаєш повноцінним веброзробником і
+                тобі не важливо що то буде за макет, ти зможеш реалізувати все!
+              </p>
+            </div>
+          </div>
+
+          <div class="why-us__container-2 w-1/2">
+            <!-- 1 -->
+            <div>
+              <div class="flex items-center gap-[30px]">
+                <img src="/images/up.svg" alt="" />
+                <h2 class="text-[28px] font-bold">
+                  Постійне зростання надходжень
+                </h2>
+              </div>
+              <p class="ml-[70px] mt-[10px]">
+                У нашій компанії ми працюємо над тим, щоб надходження постійно
+                зростали. Наша мета — допомогти вам досягти фінансового успіху.
+              </p>
+            </div>
+            <!-- 2 -->
+            <div>
+              <div class="flex items-center gap-[30px]">
+                <img src="/images/graphic.svg" alt="" />
+                <h2 class="text-[28px] font-bold">Вільний графік</h2>
+              </div>
+              <p class="ml-[70px] mt-[10px]">
+                Ми розуміємо, що кожна людина має унікальні потреби та
+                обставини, тому пропонуємо гнучкий режим роботи, який враховує
+                індивідуальні вимоги та дозволяє пристосуватися до них.
+              </p>
+            </div>
+            <!-- 3 -->
+            <div>
+              <div class="flex items-center gap-[30px]">
+                <img src="/images/office.svg" alt="" />
+                <h2 class="text-[28px] font-bold">Комфортний офіс</h2>
+              </div>
+              <p class="ml-[70px] mt-[10px]">
+                Кожен співробітник матиме своє робоче місце і зручні зони
+                відпочинку, що сприяють розслабленню та відновленню енергії.
+                Використовуємо Starlink, тому завжди на звʼязку.
+              </p>
+            </div>
+
+            <!-- 4 -->
+            <div>
+              <div class="flex items-center gap-[30px]">
+                <img src="/images/remote.svg" alt="" />
+                <h2 class="text-[28px] font-bold">
+                  Можливість працювати з дому в майбутньому
+                </h2>
+              </div>
+              <p class="ml-[70px] mt-[10px]">
+                Ми цінуємо баланс між роботою та особистим життям, тому
+                передбачаємо гнучкий формат роботи для комфорту та ефективності.
+              </p>
+            </div>
+
+            <!-- 5 -->
+            <div>
+              <div class="flex items-center gap-[30px]">
+                <img src="/images/improve.svg" alt="" />
+                <h2 class="text-[28px] font-bold">Швидкий розвиток</h2>
+              </div>
+              <p class="ml-[70px] mt-[10px]">
+                За короткий проміжок часу ти стаєш повноцінним веброзробником і
+                тобі не важливо що то буде за макет, ти зможеш реалізувати все!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Company Section -->
+      <div class="flex items-center justify-between mt-[128px]">
+        <img src="/images/company-img-1.png" alt="Company Image 1" />
+        <img src="/images/company-img-2.png" alt="Company Image 2" />
+        <img src="/images/company-img-3.png" alt="Company Image 3" />
+        <img src="/images/company-img-4.png" alt="Company Image 4" />
+      </div>
+
+      <!-- Drupal -->
+      <div class="mt-[128px]">
+        <h1 class="text-[90px] font-bold text-[#333]">Наш вклад в Drupal</h1>
+        <div class="flex justify-between gap-[30px] mt-[40px]">
+          <!-- Перша колонка -->
+          <div class="w-1/3 bg-white px-[30px] rounded-[40px]">
+            <img src="/images/ukraine-community.png" alt="Ukraine Community" />
+            <h2 class="text-[20px] font-bold text-[#333] mt-[12px]">
+              Ми зробили сайт спільноти drupal.org.ua
+            </h2>
+            <p class="text-[16px] text-[#333] mt-[12px]">
+              Ми розуміємо, що кожна людина має унікальні потреби та обставини,
+              тому пропонуємо гнучкий режим роботи, який враховує індивідуальні
+              вимоги та дозволяє пристосуватися до них.
+            </p>
+          </div>
+
+          <!-- Друга колонка -->
+          <div class="w-1/3 bg-white px-[30px] rounded-[40px]">
+            <img src="/images/open-source.png" alt="Ukraine Community" />
+            <h2 class="text-[20px] font-bold text-[#333] mt-[12px]">
+              Ми зробили сайт спільноти drupal.org.ua
+            </h2>
+            <p class="text-[16px] text-[#333] mt-[12px]">
+              Ми розуміємо, що кожна людина має унікальні потреби та обставини,
+              тому пропонуємо гнучкий режим роботи, який враховує індивідуальні
+              вимоги та дозволяє пристосуватися до них.
+            </p>
+          </div>
+
+          <!-- Третя колонка -->
+          <div class="w-1/3 bg-white px-[30px] rounded-[40px]">
+            <img src="/images/ukraine-community.png" alt="Ukraine Community" />
+            <h2 class="text-[20px] font-bold text-[#333] mt-[12px]">
+              Ми зробили сайт спільноти drupal.org.ua
+            </h2>
+            <p class="text-[16px] text-[#333] mt-[12px]">
+              Ми розуміємо, що кожна людина має унікальні потреби та обставини,
+              тому пропонуємо гнучкий режим роботи, який враховує індивідуальні
+              вимоги та дозволяє пристосуватися до них.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Companies -->
+      <div class="mt-[128px]">
+        <h1 class="text-[90px] font-bold text-[#333]">З нами працюють:</h1>
+        <div class="grid grid-cols-5 gap-[50px] mt-[48px] p-4">
+          <img src="images/toyota.png" alt="Toyota" />
+          <img src="images/bravo.png" alt="Bravo" />
+          <img src="images/drug-store.png" alt="Drug Store" />
+          <img src="images/bogomolets.png" alt="Bogomolets" />
+          <img src="images/csd.png" alt="CSD" />
+          <img src="images/city.png" alt="Місто" />
+          <img src="images/momentum.png" alt="Momentum" />
+          <img src="images/natur.png" alt="Natur" />
+          <img src="images/biopharm.png" alt="Biopharm" />
+          <img src="images/opera.png" alt="Опера" />
+          <img src="images/palazzo.png" alt="Palazzo" />
+          <img src="images/elegant.png" alt="Elegant" />
+          <img src="images/antin.png" alt="Antin" />
+          <img src="images/vfc.png" alt="VFC" />
+        </div>
+        <p class="text-right font-bold text-[20px] text-[#323336] mt-[32px]">
+          ... і ще тисячі брендів
+        </p>
+      </div>
+
+      <!-- Army -->
+      <div class="mt-[128px]">
+        <h1 class="text-[90px] font-bold text-[#323336]">
+          Ми допомагаємо ЗСУ разом!
+        </h1>
+        <h2 class="text-[20px] mt-[48px] text-[#2D3037] w-1/2">
+          Наша команда <span class="font-bold">активно підтримує захисників України</span>, перераховуючи
+          частину прибутку на потреби ЗСУ. Ми пишаємося тим, що можемо бути
+          частиною великої справи – допомоги тим, хто бореться за нашу свободу
+          та безпеку. <span class="font-bold">Разом ми сильніші.</span>
+        </h2>
+        <div class="flex items-center justify-around">
+          <div>
+            <h2 class="text-[20px] font-bold mt-[48px] text-[#323336]">
+              Нами було пожертвувано близько:
+            </h2>
+            <h1 class="ml-[25px] text-[#3F00FF] font-bold text-[72px]">
+              <span class="text-[142px]">2</span> млн. грн
+            </h1>
+          </div>
+          <!-- Images -->
+          <div class="flex ityems-center justify-between gap-10">
+            <div class="flex items-center justify-between">
+              <div class="flex flex-col items-center">
+                <img src="images/drone.svg" alt="Drone" />
+                <h2 class="text-[20px] font-bold text-[#323336]">Дрони</h2>
+              </div>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <div class="flex flex-col items-center">
+                <img src="images/generator.svg" alt="Drone" />
+                <h2 class="text-[20px] font-bold text-[#323336]">Генератори</h2>
+              </div>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <div class="flex flex-col items-center">
+                <img src="images/tel.svg" alt="Drone" />
+                <h2 class="text-[20px] font-bold text-[#323336]">Рації</h2>
+              </div>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <div class="flex flex-col items-center">
+                <img src="images/children.svg" alt="Drone" />
+                <h2 class="text-[20px] font-bold text-[#323336]">Допомога дітям</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="flex items-center justify-between px-[168px] mt-[128px]">
+        <div>
+          <img src="/images/white-logo.png" alt="White Logo" />
+          <p class="text-[16px] mt-[30px] w-1/3">
+            Компанія працює з 2008 року під брендом Глянець. Ми використовуємо
+            для роботи лише власну нерухомість, техніку та сервери. Виконуємо
+            всі замовлення виключно своїми ресурсами, залучаємо до роботи лише
+            штатних працівників. Завдяки цьому нас цінують як надійного партнера
+            та підрядника.
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
